@@ -7,7 +7,7 @@
 <div class='divhead'>
 	<table class='imgtab'>
 	<td>
-		<h1>Lipid Pathway Network Creator</h1> 
+		<h1>Lipid Network Creator</h1> 
 	</td>
 	<td >
 		<img src='http://www.d-board.eu/dboard/images-multimedia/logos/d-board.png' />
@@ -18,7 +18,7 @@
 	</table>
 </div>
 
-<form action="Part2.php" method="POST">
+<form action="http://www.nottingham.ac.uk/~stxfc1/Part2.php" method="POST">
 	<p colspan = "3" style= 'font-weight: bold' valign="top"></p>
 	<p>This software will use a list of lipids to create a network containing the metabolic pathways close to them. The metabolites can be provided with a <a href="http://www.nottingham.ac.uk/~stxfc1/Score-info.html" target="_blank" >score</a> 
 	indicating whether they have been found in high concentration or in low concentration.</p>

@@ -7,7 +7,7 @@
 <div class='divhead'>
 	<table class='imgtab'>
 	<td>
-		<h1>Lipid Pathway Network Creator</h1> 
+		<h1>Lipid Network Creator</h1> 
 	</td>
 	<td >
 		<img src='http://www.d-board.eu/dboard/images-multimedia/logos/d-board.png' />
@@ -64,53 +64,70 @@ if(!empty($_POST['form']))
 			$Scorebool = "Yes";
 			$sumscore = 0;
 			$count = 0;
-			foreach ($listMeta as $Meta) {
-				$sec = explode(" ",$Meta);
-				$Meta = str_replace("\r", "", $sec[0]);
-				$sql='INSERT INTO ImportantNodes (Node) VALUES ("' . $Meta . '")';
-				$result = mysqli_query($cxn,$sql);
-				$sql='SELECT Nodename FROM NodeInfo where LipidMapID = "' . $Meta . '"';
-				$result = mysqli_query($cxn,$sql);
-				$MetaName= mysqli_fetch_row($result); 
-				$Score = str_replace("\r", "", $sec[1]);
-				$sql='INSERT INTO ScoreNodes (Node,Score) VALUES ("' . $MetaName[0] . '",' . $Score . ')';
-				$result = mysqli_query($cxn,$sql);
-				$count += 1;
-				$sumscore += abs($Score);
-				
-				//We can have piece 1 here
-				//SELECT NodeName,Score FROM NodeInfo cross join ScoreNodes where LipidMapID = Node;
+			if ($listMeta[0] != ""){
+				foreach ($listMeta as $Meta) {
+					$sec = explode(" ",$Meta);
+					$Meta = str_replace("\r", "", $sec[0]);
+					$sql='INSERT INTO ImportantNodes (Node) VALUES ("' . $Meta . '")';
+					$result = mysqli_query($cxn,$sql);
+					$sql='SELECT Nodename FROM NodeInfo where LipidMapID = "' . $Meta . '"';
+					$result = mysqli_query($cxn,$sql);
+					$MetaName= mysqli_fetch_row($result);
+					if ($MetaName == ""){
+						$sql='SELECT Nodename FROM NodeInfo where NodeName = "' . $Meta . '"';
+						$result = mysqli_query($cxn,$sql);
+						$MetaName= mysqli_fetch_row($result);
+						}
+					$Score = str_replace("\r", "", $sec[1]);
+					$sql='INSERT INTO ScoreNodes (Node,Score) VALUES ("' . $MetaName[0] . '",' . $Score . ')';
+					$result = mysqli_query($cxn,$sql);
+					$count += 1;
+					$sumscore += abs($Score);
+					
+					//We can have piece 1 here
+					//SELECT NodeName,Score FROM NodeInfo cross join ScoreNodes where LipidMapID = Node;
+				}
 			}
+
 			$sql="TRUNCATE Table PreImportant";
 			$result = mysqli_query($cxn,$sql);
 			$listGeneral = explode("\n",$_POST['query2']);
-			foreach ($listGeneral as $General) {
-				$sql="TRUNCATE Table PreImportante";
-				$result = mysqli_query($cxn,$sql);
-				$sec = explode(" ",$General);
-				$General = str_replace("\r", "", $sec[0]);
-				$sql='INSERT INTO PreImportant (Node) VALUES ("' . $General . '")';
-				$result = mysqli_query($cxn,$sql);
-				$sql='INSERT INTO PreImportante (Node) VALUES ("' . $General . '")';
-				$result = mysqli_query($cxn,$sql);
-				$Score = str_replace("\r", "", $sec[1]);
-				$sql="DROP VIEW IF EXISTS temp";
-				$result = mysqli_query($cxn,$sql);
-				$sql="CREATE VIEW temp AS (Select Name from Auxiliar where COMBO  in (SELECT * from PreImportante))";
-				$result = mysqli_query($cxn,$sql);
-				$sql="SELECT * FROM temp";
-				$result = mysqli_query($cxn,$sql);
-				$count+=1;
-				$sumscore+=abs($Score);
-				for ($i=0;$i < mysqli_num_rows($result);$i++){
-				   	$row = mysqli_fetch_row($result);
-					$ScoreD = (float)$Score/mysqli_num_rows($result);
-					//echo $row[0]." ".$ScoreD."<p>";
-					$sql='INSERT INTO ScoreNodes (Node,Score) VALUES ("' . $row[0] . '",' . $ScoreD . ')';
-					$resultata = mysqli_query($cxn,$sql);
+			if ($listGeneral[0] != ""){
+				#echo "<BR>..</BR>";
+				foreach ($listGeneral as $General) {
+					$sql="TRUNCATE Table PreImportante";
+					$result = mysqli_query($cxn,$sql);
+					$sec = explode(" ",$General);
+					$General = str_replace("\r", "", $sec[0]);
+					$sql='INSERT INTO PreImportant (Node) VALUES ("' . $General . '")';
+					$result = mysqli_query($cxn,$sql);
+					$sql='INSERT INTO PreImportante (Node) VALUES ("' . $General . '")';
+					$result = mysqli_query($cxn,$sql);
+					$Score = str_replace("\r", "", $sec[1]);
+					$sql="DROP VIEW IF EXISTS temp";
+					$result = mysqli_query($cxn,$sql);
+					$sql="CREATE VIEW temp AS (Select Name from Auxiliar where COMBO  in (SELECT * from PreImportante))";
+					$result = mysqli_query($cxn,$sql);
+					$sql="SELECT * FROM temp";
+					$result = mysqli_query($cxn,$sql);
+					$count+=1;
+					$sumscore+=abs($Score);
+					for ($i=0;$i < mysqli_num_rows($result);$i++){
+						$row = mysqli_fetch_row($result);
+						$ScoreD = (float)$Score/mysqli_num_rows($result);
+						//echo $row[0]." ".$ScoreD."<p>";
+						$sql='INSERT INTO ScoreNodes (Node,Score) VALUES ("' . $row[0] . '",' . $ScoreD . ')';
+						$resultata = mysqli_query($cxn,$sql);
+						}
 					}
 				}
+			#detete empty colums
+			$sql='DELETE FROM ScoreNodes WHERE Node ="" ';
+			$result = mysqli_query($cxn,$sql);
+			##
 			$Average=$sumscore/$count;
+			#echo $Average;
+			#echo "<BR></BR>";
 			$sql='UPDATE ScoreNodes SET ScoreU = Score /' . $Average . '';
 			$result = mysqli_query($cxn,$sql);
 			
@@ -178,7 +195,7 @@ if(!empty($_POST['form']))
 		}
 	if ($bool and $_POST['query'] <> "") {
 		echo "<p class=warning>The following lipidsmaps ID were not found in the network and therefore were not added to the network:       ". $FailID ."<br>
-			  If you thing that the pathway for this metabolite shall be known report this lipid ID back to the following email stxfc1@nottingham.ac.uk</p>";
+			  If you think that the pathway for this metabolite shall be known report this lipid ID back to the following email stxfc1@nottingham.ac.uk</p>";
 	}
 
 	//Report back not found generic names
@@ -216,8 +233,34 @@ if(!empty($_POST['form']))
 
 
 	//write in the webpage
-	$sql="Select COMBO as 'Original', Name as 'Lipids of interest' from Auxiliar where COMBO  in (SELECT * from PreImportant) union SELECT LipidMapID, NodeName FROM NodeInfo cross join ImportantNodes where LipidMapID = Node or nodeName = Node;";
-	$result = mysqli_query($cxn,$sql) or die ("Couldn't execute querry");
+	// view of the tentative identities
+	$sql="CREATE VIEW block1 as Select COMBO as 'Original', Name from Auxiliar where COMBO  in (SELECT * from PreImportant)";
+	$result = mysqli_query($cxn,$sql);
+	$sql="select * from block1";
+	$result = mysqli_query($cxn,$sql);
+	$NUMofMETtentative = @mysqli_num_rows($result);
+	//view of the perfect identifications
+	$sql="CREATE VIEW block2 as SELECT LipidMapID, NodeName FROM NodeInfo cross join ImportantNodes where LipidMapID = Node or nodeName = Node";
+	$result = mysqli_query($cxn,$sql);
+	$sql="select * from block2";
+	$result = mysqli_query($cxn,$sql);
+	$NUMofMETperfect = @mysqli_num_rows($result);
+	//assembly of the views
+	$sql="create view blockTOT as SELECT * from block1 union select * from block2";
+	$result = mysqli_query($cxn,$sql);
+	
+	
+	$sql="select * from blockTOT";
+	$result = mysqli_query($cxn,$sql);
+	$NUMofMET = @mysqli_num_rows($result);
+	### Make the score relative
+	$sql='UPDATE ScoreNodes SET ScoreR = ScoreU /' . $count . '';
+	$result = mysqli_query($cxn,$sql);
+	###
+	$sql="select * from blockTOT";
+	$result = mysqli_query($cxn,$sql);	
+	//$sql="Select COMBO as 'Original', Name as 'Lipids of interest' from Auxiliar where COMBO  in (SELECT * from PreImportant) union SELECT LipidMapID, NodeName FROM NodeInfo cross join ImportantNodes where LipidMapID = Node or nodeName = Node;";
+	//$result = mysqli_query($cxn,$sql) or die ("Couldn't execute querry");
 
 	//Error reports
 	if($result == false)
@@ -231,8 +274,11 @@ if(!empty($_POST['form']))
 	else
 	{
 	/* Display results */
-	echo "The table below present the list of Lipids that will be used on the generation of the network. If they are correct hit proceed:<br>If you wish to change anything go back on your browser<br>";
+	echo "A total of <b>" . $NUMofMET ."</b> metabolites have been identified and are prepare to be used as a selection for the creation of the network image.
+	<br>From those <b>" . $NUMofMETperfect . "</b> are provided as perfectly identified lipids and <b>" . $NUMofMETtentative . "</b> have been generated from the tentative identification list.
+	<br> If these are correct, click Submit below. Otherwise, click Back.<br><br>";
     echo "<table id='t01'><thead><tr>";
+
     $finfo = mysqli_fetch_fields($result);
     foreach($finfo as $field)
     {
@@ -255,7 +301,7 @@ if(!empty($_POST['form']))
 }
 unlink('/home/stxfc1/public_html/Results.zip');
 ?>
-<form action="Part3.php" method="POST">
+<form action="Part3-COPY.php" method="POST">
 	<p colspan = "3" style= 'font-weight: bold' valign="top"></p>
 	<p style='text-align: left'> <input type="submit" value="Submit"  id='submit'>
 	<input type="hidden" name="form" value="yes">

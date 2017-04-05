@@ -5,7 +5,7 @@
 #Last Revision:24/11/15
 import re
 
-filename = '../Data/Network/Inproces/General.sif'
+filename = '../Data/Network/Inproces/General.sif'   #This file contains the main pathways in a low cuality format 
 
 f =open(filename, 'r')
 out=open('Multiplied.sif','w')
@@ -17,7 +17,7 @@ for i in AcidL:
     key = i.split('\t')[0]
     value= i.split('\t')[1]
     D[key]=value
-###
+### THis section we identify all the FA chains that are going to be used to make the different combinations of PC, PE ...
 for line in f:
     out.write(line)
     #matchObj = re.search( r'\([0-9]:|\([0-9][0-9]', line, re.M|re.I)
@@ -43,7 +43,7 @@ for line in f:
 
 listofchains=list(set(listofchains))
 listofchains=sorted(listofchains)
-#carnitines
+#This sections adds the reactions of the carnitines
 nodeID = 700   #contains about 63 nodes in here
 for i in listofchains:
     out.write(i+'\tpp\t'+str(nodeID)+'\n')
@@ -57,7 +57,7 @@ for i in listofchains:
     out.write(str(nodeID)+'\tpp\t'+'L-carnitine'+'\n')
     nodeID+=1
 
-#Cholesterol esters
+#This section adds the reaction of the Cholesterol esters
 for i in listofchains:
     out.write('Cholesterol'+'\tpp\t'+str(nodeID)+'\n')
     out.write('SOAT1/SOAT2'+'\tpp\t'+str(nodeID)+'\n')
@@ -65,12 +65,10 @@ for i in listofchains:
     out.write(str(nodeID)+'\tpp\t'+'CE'+i.split()[-1]+'\n')
     nodeID+=1
     
-# # # # # # # # #smaller net
+# Here we reduce the number of chains in the combinatoru since some of the combinations are not possible and they would be dummy nodes
 smalllistofchains = []
 #print(len(listofchains))
-for i in listofchains:     # print nice
-    print(i)
-f.close()
+
 for i in listofchains:
     a = i
     i = i.split()[-1]
@@ -81,15 +79,9 @@ for i in listofchains:
                     #print(i)
                     smalllistofchains.append(a)
 listofchains = smalllistofchains
-#print(len(listofchains))
-for i in listofchains:     
-    print(i.split()[-1])
-f.close()
 
-# # # # # # # # #
-
-#spingolipids
-nodeID=1000  #abut 415 nodes will be here
+#This section adds the reactions of the spingolipids pathway
+nodeID=1000  #abut 415 reactions will be generated in here
 for i in listofchains:
     out.write(i+'\tpp\t'+str(nodeID)+'\n')
     #Condition for different lass
@@ -156,15 +148,14 @@ for i in listofchains:
     out.write('SGMS2'+'\tpp\t'+str(nodeID)+'\n')
     out.write(str(nodeID)+'\tpp\t'+'DH SM'+i.split()[-1]+'\n')    
     nodeID+=1
-    #out.write('Cer'+i.split()[-1]+'\tpp\t37\n')
-    ##Phyto
+
+    ##Phyto spyngolipids
     out.write('Phyto-ceramide'+i.split()[-1]+'\tpp\t'+str(nodeID)+'\n')
     out.write('ASAH1/ASAH2'+'\tpp\t'+str(nodeID)+'\n')
     out.write(str(nodeID)+'\tpp\t'+'Phyto-sphingosine'+'\n')
     out.write(str(nodeID)+'\tpp\t'+D[i.split()[-1].replace("(","").replace(")","")][:-1]+'\n')
     nodeID+=1
-    #print(i.split()[-1].replace("(","").replace(")","").replace("/n",""))
-    #print(D[i.split()[-1].replace("(","").replace(")","")][:-1])
+
 
 ## Glycero phopholipids
 nodeID = 2000
@@ -190,8 +181,10 @@ DGList=[]
 Lcombos=[]
 LcombosZERO=[]
 c=0
+
+#Glycero Phospholipids
 for a in range(len(listofchains)):
-    b = 'Auxiliar CoA (0)'
+    b = 'Auxiliar CoA (0)'  #This help us generate all the Lyso PC, Lyso PE...
     comboZERO=listofchains[a].split()[-1][0:-1]+'/'+b.split()[-1][1:]
     for b in range(len(listofchains)):
         if a>=b:
@@ -378,7 +371,6 @@ for a in range(len(listofchains)):
     out.write('UG6\tpp\t'+str(nodeID)+'\n')
     out.write(str(nodeID)+'\tpp\t'+'PA(O-'+combo[1:]+'\n')
     nodeID+=1
-#
     out.write('PA(O-'+combo[1:]+'\tpp\t'+str(nodeID)+'\n')
     out.write('PPAP2A\tpp\t'+str(nodeID)+'\n')
     out.write(str(nodeID)+'\tpp\t'+'DG(O-'+combo[1:]+'\n')
@@ -410,8 +402,7 @@ for a in range(len(listofchains)):
     LcombosZERO.append(combo)
 
     
-#Do all the end point okay.
-#print(LcombosZERO)
+#This sections connects some of the pathways between them
 for a in LcombosZERO:
     #print(a.split()[-1][1:-1])
     for combo in Lcombos:
@@ -484,5 +475,5 @@ trio.close()
 ######
 print('Network Multiplicated')
 print('results in Multiplied.sif')
-#print(DGList)
+
 

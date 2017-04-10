@@ -75,7 +75,7 @@ $_POST['database'] = 'stxfc1_lip_path_gen';
     }
 	fclose($myfile);
 	
-		//The info of metabolite
+		//In this section a series of mySQL actions are performed in order to start the generation of the smaller netowrk
 	unlink('/home/stxfc1/public_html/Node-Info.txt');
 	$sql="DROP VIEW IF EXISTS Info1";
 	$sql="DROP VIEW IF EXISTS Info2";	

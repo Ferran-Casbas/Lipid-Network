@@ -1,11 +1,12 @@
 #The program generates the network with the majority of pathways. The Base start point is the General.sif
 #From the program have already the information of how the nodes should be conected
+#The final output will be a sif file with a wide range of lipid reactions. 
 #Author: Ferran Casbas
 #Created: 14/10/14
 #Last Revision:24/11/15
 import re
 
-filename = '../Data/Network/Inproces/General.sif'   #This file contains the main pathways in a low cuality format 
+filename = '../Data/Network/Inproces/General.sif'   #This file contains the main pathways in a low quality format 
 
 f =open(filename, 'r')
 out=open('Multiplied.sif','w')
@@ -84,7 +85,7 @@ listofchains = smalllistofchains
 nodeID=1000  #abut 415 reactions will be generated in here
 for i in listofchains:
     out.write(i+'\tpp\t'+str(nodeID)+'\n')
-    #Condition for different lass
+    #Condition for different LASS (enzyme)
     if i.split()[-1][1:5] == '16:0':
         out.write('LASS5/LASS6\tpp\t'+str(nodeID)+'\n')
     else:

@@ -11,7 +11,7 @@
 		<h1>Lipid Network Creator</h1> 
 	</td>
 	<td >
-		<img src='http://www.surrey.ac.uk/sites/default/files/D-BOARD.jpg' />
+		<img src='https://www.nottingham.ac.uk/~stxfc1/D-BOARD2.jpg' />
 	</td>
 	<td >
 		<img src='https://www2.warwick.ac.uk/fac/sci/wmg/research/business_transformation/ssg/collaboration/notts.gif' />
@@ -27,7 +27,8 @@
 	The second box present a metabolite with low quality identification, from the retention time and mass it has been possible to recognize that is a PC with 32 carbons 
 	and two double bonds, but since the distribution of the chains remains unknown it will  be placed in the generic box.</p>
 	<p>Introduce in the boxes the lipids that have come out from your analysis, rember to separate them between identified and generic. You can introduce your data scored or not.</p>
-	<!-->This are the boxes safe under query and query2<!-->
+	<!-->Below the code generates a table, in the table two textarea, which are the white boxes used as input<!-->
+	<!-->They have some default values stored to act as an example. This is the information that is moved to the next section<!-->
 	<fieldset>
 		<legend>Lipidomics Input</legend>
 		<input type="radio" name="Scored" value="No" checked>Not scored<br>

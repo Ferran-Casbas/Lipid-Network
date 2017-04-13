@@ -477,4 +477,6 @@ trio.close()
 print('Network Multiplicated')
 print('results in Multiplied.sif')
 
-
+#To add new reactions or pathways the option is if it does not affect a great amount of nodes to edit directly the input file.
+#If what needs to be added is a whole set of reactions then is important to know that we are writting a sif file, the information is 
+# separated by tabs in the format of: Substatre    TypeReaction    Product

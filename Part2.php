@@ -1,4 +1,5 @@
-<!-->This html document conection to the MySQL server and the procesing of the data. Also gives a preview of the data that has gone correctly though and the error that might have been caught<!-->
+<!-->This html document conection to the MySQL server and the procesing of the data. 
+Also gives a preview of the data that has gone correctly though and the error that might have been caught<!-->
 <html>
 <link type = 'text/css' rel= 'stylesheet' href='stylesheet1.css'/>
 <head>

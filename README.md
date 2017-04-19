@@ -4,13 +4,19 @@ This folder contains the scripts of the network generation and the set of php pa
 
 Summary:
 
-LipEnz-BIOGRID.cys	                Cytoescape file containing Biogrid information for the enzymes of the network
-Network-Multiplicator.py	          Python script, Generates a more complete lipid pathway
-Part1.php		                        Website part 1 contains UI 
-Part2.php	                          Website part 2 connects with the MySQL server and check the input lipids, handles errors
-Part3.php	                          Website part 3 does final operations and generates the output files
-stylesheet1.css                     Style file, formats the php pages
-MYSQL-SCRIPTS.sql                   Contains the scripts done in the MYSQL server
+LipEnz-BIOGRID.cys:	                Cytoescape file containing Biogrid information for the enzymes of the network
+
+Network-Multiplicator.py:	          Python script, Generates a more complete lipid pathway
+
+Part1.php:		                        Website part 1 contains UI 
+
+Part2.php:	                          Website part 2 connects with the MySQL server and check the input lipids, handles errors
+
+Part3.php:	                          Website part 3 does final operations and generates the output files
+
+stylesheet1.css:                     Style file, formats the php pages
+
+MYSQL-SCRIPTS.sql:                   Contains the scripts done in the MYSQL server
 
 
 How to:

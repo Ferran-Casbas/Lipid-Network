@@ -73,58 +73,7 @@ Node VARCHAR(95) NOT NULL,
 CONSTRAINT pk_Node PRIMARY KEY (Node)
 );
 
-###Test 
-INSERT INTO ScoreNodes (Node,Score) VALUES
-("9(S)-HODE",1),
-("5-HETE",1);
 
-
-INSERT INTO ImportantNodes (Node) VALUES
-("9(S)-HODE"),
-("5-HETE");
-
-SELECT * FROM ImportantNodes;
-
-DROP VIEW IF EXISTS tab0;
-DROP VIEW IF EXISTS tab1;
-DROP VIEW IF EXISTS tab2;
-DROP VIEW IF EXISTS tab3;
-DROP VIEW IF EXISTS tab4;
-DROP VIEW IF EXISTS tab5;
-DROP VIEW IF EXISTS tab6;
-DROP VIEW IF EXISTS Net;
-DROP VIEW IF EXISTS Details;
-
-
-
-
-CREATE VIEW tab0 AS (SELECT Nodename FROM NodeInfo cross join ImportantNodes where LipidMapID = Node);
-
-CREATE VIEW tab1 AS (SELECT Product FROM Network cross join tab0 where (Network.Substrate = Nodename)or (Network.Product= Nodename));
-CREATE VIEW tab2 AS (SELECT Substrate FROM Network cross join tab0 where (Network.Substrate = Nodename)or(Network.Product= Nodename));
-CREATE VIEW tab3 AS SELECT * from tab1 UNION select * from tab2;
-
-SELECT Network.Substrate,InteractionType,Product FROM Network where (Network.Substrate = ANY(SELECT * from tab3) or Network.Product = ANY(SELECT * from tab3));
-
-CREATE VIEW Net AS SELECT Network.Substrate,InteractionType,Product FROM Network where (Network.Substrate = ANY(SELECT * from tab3) or Network.Product = ANY(SELECT * from tab3));
-
-#Get the List translated
-
-Select distinct Substrate,TypeNode from Net cross join NodeInfo where (Substrate = NodeName) Union Select distinct Product,TypeNode from Net cross join NodeInfo where (Product = NodeName) order by TypeNode;
-
-##Translate ID from lipid maps;
-SELECT Nodename FROM NodeInfo cross join ImportantNodes where LipidMapID = Node;
-
-
-CREATE VIEW tab4 AS SELECT Network.Substrate FROM Network cross join tab3 where (Network.Substrate = tab3.Product)or(Network.Product = tab3.Product);
-CREATE VIEW tab5 AS SELECT Network.Product FROM Network cross join tab3 where (Network.Substrate = tab3.Product)or(Network.Product = tab3.Product);
-CREATE VIEW tab6 AS SELECT * from tab4 UNION select * from tab5;
-
-
-###Get the ID that are not found;
-SELECT Node FROM ImportantNodes where ( Node not in (SELECT distinct LipidMapID from NodeInfo));
-##Get generals
-Select Name from Auxiliar where (COMBO  in (SELECT * from PreImportant));
 
 
 

@@ -10,7 +10,7 @@ Part1.php		                        Website part 1 contains UI
 Part2.php	                          Website part 2 connects with the MySQL server and check the input lipids, handles errors
 Part3.php	                          Website part 3 does final operations and generates the output files
 stylesheet1.css                     Style file, formats the php pages
-
+MYSQL-SCRIPTS.sql                   Contains the scripts done in the MYSQL server
 
 How to:
 

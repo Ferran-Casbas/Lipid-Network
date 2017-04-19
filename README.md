@@ -12,6 +12,7 @@ Part3.php	                          Website part 3 does final operations and gen
 stylesheet1.css                     Style file, formats the php pages
 MYSQL-SCRIPTS.sql                   Contains the scripts done in the MYSQL server
 
+
 How to:
 
 The Python script contains the code to generate the human lipid network from the basic sif structure file.

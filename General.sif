@@ -1,0 +1,1236 @@
+Taurine	pp	400
+397	pp	Cholate
+399	pp	Glycocholate
+Cholate	pp	398
+400	pp	Taurocholate
+Glycine	pp	399
+BAAT	pp	400
+BAAT	pp	399
+BAAT	pp	112
+BAAT	pp	169
+169	pp	Glycochenodeoxycholate
+112	pp	Taurochenodeoxycholate
+Glycine	pp	169
+Taurine	pp	112
+SLC27A5	pp	398
+SLC27A5	pp	111
+ACOT8	pp	397
+ACOT8	pp	110
+111	pp	3alpha,7alpha-Dihydroxy-5Beta-cholestanoyl-CoA
+110	pp	Chenodeoxycholate
+Chenodeoxycholate	pp	111
+SCP2	pp	390
+SCP2	pp	391
+HSD17B4	pp	392
+HSD17B4	pp	389
+HSD17B4	pp	388
+HSD17B4	pp	393
+ACOX2	pp	394
+ACOX2	pp	387
+AMACR	pp	386
+AMACR	pp	395
+SLC27A5	pp	396
+SLC27A5	pp	385
+392	pp	3alpha,7alpha,12alpha-Trihydroxy-5Beta-24oxocholestanoyl-CoA
+3alpha,7alpha,12alpha-Trihydroxy-5Beta-cholest-24-enoyl-CoA	pp	393
+393	pp	3alpha,7alpha,12alpha,24-Tetrahydroxy-5Beta-cholestanoyl-CoA
+394	pp	3alpha,7alpha,12alpha-Trihydroxy-5Beta-cholest-24-enoyl-CoA
+3alpha,7alpha,12alpha,24-Tetrahydroxy-5Beta-cholestanoyl-CoA	pp	392
+395	pp	(25S)-3alpha,7alpha,12alpha-Tetrahydroxy-5Beta-cholestanoyl-CoA
+(25S)-3alpha,7alpha,12alpha-Tetrahydroxy-5Beta-cholestanoyl-CoA	pp	394
+3alpha,7alpha,12alpha-Trihydroxy-5Beta-cholestanoyl-CoA	pp	399
+3alpha,7alpha,12alpha-Trihydroxy-5Beta-cholestanoyl-CoA	pp	400
+3alpha,7alpha,12alpha-Trihydroxy-5Beta-cholestanoyl-CoA	pp	397
+3alpha,7alpha,12alpha-Trihydroxy-5Beta-cholestanoyl-CoA	pp	398
+391	pp	3alpha,7alpha,12alpha-Trihydroxy-5Beta-cholestanoyl-CoA
+396	pp	(25R)-3alpha,7alpha,12alpha-Tetrahydroxy-5Beta-cholestanoyl-CoA
+3alpha,7alpha,12alpha-Trihydroxy-5Beta-24oxocholestanoyl-CoA	pp	391
+(25R)-3alpha,7alpha,12alpha-Tetrahydroxy-5Beta-cholestanoyl-CoA	pp	395
+3alpha,7alpha-Dihydroxy-5Beta-cholestanoyl-CoA	pp	169
+3alpha,7alpha-Dihydroxy-5Beta-cholestanoyl-CoA	pp	112
+3alpha,7alpha-Dihydroxy-5Beta-cholestanoyl-CoA	pp	110
+390	pp	3alpha,7alpha-Dihydroxy-5Beta-cholestanoyl-CoA
+3alpha,7alpha-Dihydroxy-5Beta-24oxocholestanoyl-CoA	pp	390
+389	pp	3alpha,7alpha-Dihydroxy-5Beta-24oxocholestanoyl-CoA
+3alpha,7alpha-Dihydroxy-5Beta-cholest-24-enoyl-CoA	pp	388
+388	pp	3alpha,7alpha,24-Trihydroxy-5Beta-cholestanoyl-CoA
+387	pp	3alpha,7alpha-Dihydroxy-5Beta-cholest-24-enoyl-CoA
+3alpha,7alpha,24-Trihydroxy-5Beta-cholestanoyl-CoA	pp	389
+386	pp	(25S)-3alpha,7alpha-Dihydroxy-5Beta-cholestanoyl-CoA
+(25S)-3alpha,7alpha-Dihydroxy-5Beta-cholestanoyl-CoA	pp	387
+385	pp	(25R)-3alpha,7alpha-Dihydroxy-5Beta-cholestanoyl-CoA
+(25R)-3alpha,7alpha-Dihydroxy-5Beta-cholestanoyl-CoA	pp	386
+384	pp	3alpha,7alpha,12alpha-Trihydroxy-5Beta-cholestate
+3alpha,7alpha,12alpha-Trihydroxy-5Beta-cholestate	pp	396
+383	pp	3alpha,7alpha-Dihydroxy-5Beta-cholestate
+3alpha,7alpha-Dihydroxy-5Beta-cholestate	pp	385
+3alpha,7alpha,12alpha-Trihydroxy-5Beta-cholestan-26-al	pp	384
+3alpha,7alpha-Dihydroxy-5Beta-cholestan-26-al	pp	383
+382	pp	3alpha,7alpha,12alpha-Trihydroxy-5Beta-cholestan-26-al
+381	pp	3alpha,7alpha-Dihydroxy-5Beta-cholestan-26-al
+AKR1C4	pp	379
+AKR1C4	pp	377
+3alpha,7alpha,12alpha,26-Tetrahydroxy-5Beta-cholestane	pp	382
+380	pp	3alpha,7alpha,12alpha,26-Tetrahydroxy-5Beta-cholestane
+3alpha,7alpha,12alpha-Trihydroxy-5beta-cholestane	pp	380
+379	pp	3alpha,7alpha,12alpha-Trihydroxy-5beta-cholestane
+AKR1D1	pp	374
+AKR1D1	pp	376
+CYP8B1	pp	375
+3alpha,7alpha,26-Trihydroxy-5Beta-cholestane	pp	381
+378	pp	3alpha,7alpha,26-Trihydroxy-5Beta-cholestane
+3alpha,7alpha-Dihydroxy-5Beta-cholestane	pp	378
+377	pp	3alpha,7alpha-Dihydroxy-5Beta-cholestane
+5Beta-Cholesten-7alpha,12alpha-diol-3one	pp	379
+376	pp	5Beta-Cholesten-7alpha,12alpha-diol-3one
+7alpha-Hydroxy-5Beta-cholestan-3-one	pp	377
+374	pp	7alpha-Hydroxy-5Beta-cholestan-3-one
+4-Cholesten-7alpha,12alpha-diol-3-one	pp	376
+375	pp	4-Cholesten-7alpha,12alpha-diol-3-one
+373	pp	7alpha-Hydroxy-3-oxo-4-cholestenoate
+372	pp	7alpha,26-Dihydroxy-4-cholesten-3one
+CYP7A1	pp	361
+CYP7A1	pp	366
+3Beta,7alpha-Dyhydroxy-5-cholestenoate	pp	373
+371	pp	3Beta,7alpha-Dyhydroxy-5-cholestenoate
+3Beta-hydroxy-5-cholestenoate	pp	371
+370	pp	3Beta-hydroxy-5-cholestenoate
+CYP27A1	pp	383
+CYP27A1	pp	384
+CYP27A1	pp	381
+CYP27A1	pp	382
+CYP27A1	pp	378
+CYP27A1	pp	380
+CYP27A1	pp	362
+CYP7B1	pp	371
+CYP7B1	pp	366
+CYP7B1	pp	367
+CH25H	pp	363
+CYP39A1	pp	360
+CYP46A1	pp	364
+HSD3B7	pp	373
+HSD3B7	pp	372
+HSD3B7	pp	365
+HSD3B7	pp	369
+HSD3B7	pp	368
+369	pp	7alpha,25-Dihydroxy-4-cholesten-3one
+368	pp	7alpha,24-Dihydroxy-4-cholesten-3one
+7alpha-Hydroxycholesterol	pp	365
+Cholest-5-ene-3beta,26-diol	pp	366
+Cholest-5-ene-3beta,26-diol	pp	370
+5-Cholesten-3Beta,25(S)-diol	pp	367
+24-Hydroxy-cholesterol	pp	360
+361	pp	7alpha-Hydroxycholesterol
+362	pp	Cholest-5-ene-3beta,26-diol
+363	pp	5-Cholesten-3Beta,25(S)-diol
+364	pp	24-Hydroxy-cholesterol
+365	pp	7alpha-Hydroxycholest-4-en-3-one
+366	pp	7alpha,27-Dyhydroxycholesterol
+367	pp	Cholest-5-ene-3beta-7alpha,25-triol
+360	pp	24S-Cholest-5-ene-3Beta,7alpha,24triol
+7alpha-Hydroxycholest-4-en-3-one	pp	375
+7alpha-Hydroxycholest-4-en-3-one	pp	374
+7alpha,27-Dyhydroxycholesterol	pp	372
+Cholest-5-ene-3beta-7alpha,25-triol	pp	369
+24S-Cholest-5-ene-3Beta,7alpha,24triol	pp	368
+359	pp	all-trans-4-Oxoretinoic acid
+CYP4A11	pp	356
+CYP3A	pp	359
+CYP3A	pp	357
+CYP3A	pp	356
+CYP3A	pp	355
+CYP2	pp	359
+CYP2	pp	357
+CYP2	pp	356
+CYP2	pp	355
+CYP1A1	pp	359
+CYP1A1	pp	356
+CYP1A1	pp	355
+CYP261	pp	359
+CYP261	pp	356
+CYP261	pp	355
+357	pp	all-trans-5,6-Epoxy-5,6-dihydroretinoic acid
+358	pp	all-trans-Retinoyl beta-glucoronide
+356	pp	all-trans-18-Hydroxy retinoic acid
+355	pp	all-trans-4-Hydroxy retinoic acid
+all-trans-4-Hydroxy retinoic acid	pp	359
+354	pp	all-trans-Retinal
+353	pp	Metarhodopsin II
+Metarhodopsin II	pp	354
+Metarhodopsin I	pp	353
+352	pp	Metarhodopsin I
+350	pp	Bathorhodopsin
+351	pp	Lumirhodopsin
+113	pp	Rhodopsin
+Lumirhodopsin	pp	352
+Bathorhodopsin	pp	351
+Rhodopsin	pp	350
+349	pp	all-trans-Retinal
+348	pp	Iodopsin
+Iodopsin	pp	349
+11-cis Retinal	pp	113
+11-cis Retinal	pp	348
+11-cis Retinal	pp	347
+347	pp	11-cis-Retinol
+346	pp	11-cis Retinal
+345	pp	11-cis-Retinyl ester
+RPE65	pp	344
+344	pp	11-cis-Retinol
+11-cis-Retinol	pp	346
+11-cis-Retinol	pp	345
+PNPLA4	pp	342
+LRAT	pp	345
+LRAT	pp	343
+DGAT	pp	345
+DGAT	pp	343
+343	pp	all-trans-Retinyl ester
+342	pp	all-trans-Retinol
+all-trans-Retinyl ester	pp	344
+all-trans-Retinyl ester	pp	342
+RETSAT	pp	341
+CYP26A	pp	340
+341	pp	all-trans-13,14-dihydroretinol
+340	pp	4-Oxoretinol
+339	pp	9-cis-Retinol
+DHRS9	pp	338
+DHRS9	pp	337
+338	pp	all-trans-Retinal
+337	pp	all-trans-Retinol
+all-trans-Retinol	pp	343
+all-trans-Retinol	pp	341
+all-trans-Retinol	pp	340
+all-trans-Retinol	pp	339
+all-trans-Retinol	pp	338
+DHRS4	pp	338
+DHRS4	pp	337
+DHRS4	pp	336
+DHRS4	pp	335
+RDH12	pp	347
+RDH12	pp	346
+RDH12	pp	338
+RDH12	pp	337
+RDH12	pp	336
+RDH12	pp	335
+336	pp	9-cis-Retinol
+335	pp	9-cis-Retinal
+9-cis-Retinol	pp	335
+334	pp	9-cis-Retinoate
+9-cis-Retinal	pp	336
+9-cis-Retinal	pp	334
+333	pp	9-cis-Retinoate
+AOX1	pp	334
+AOX1	pp	332
+ALDH1A2	pp	334
+ALDH1A2	pp	332
+ALDH1A1	pp	334
+ALDH1A1	pp	332
+all-trans-Retinoate	pp	358
+all-trans-Retinoate	pp	357
+all-trans-Retinoate	pp	356
+all-trans-Retinoate	pp	355
+all-trans-Retinoate	pp	333
+332	pp	all-trans-Retinoate
+BCO1	pp	331
+all-trans-Retinal	pp	337
+all-trans-Retinal	pp	332
+331	pp	all-trans-Retinal
+Beta-carotene	pp	331
+216	pp	Resolvine D4
+215	pp	Resolvine D3
+214	pp	Resolvine D2
+212	pp	Resolvine D1
+4S,(5)-epoxydocosatriene	pp	216
+4S,(5)-epoxydocosatriene	pp	215
+7S,(8)-epoxydocosatriene	pp	214
+7S,(8)-epoxydocosatriene	pp	212
+172	pp	4S,(5)-epoxydocosatriene
+147	pp	7S,(8)-epoxydocosatriene
+17R-hydroperoxy DHA	pp	172
+17R-hydroperoxy DHA	pp	147
+142	pp	17R-hydroperoxy DHA
+Aspirin	pp	142
+Aspirin	pp	216
+Aspirin	pp	215
+Aspirin	pp	214
+Aspirin	pp	212
+Aspirin	pp	204
+COX2	pp	142
+COX2	pp	204
+209	pp	Resolvine E1
+207	pp	Resolvine E2
+5S-hydroperoxy,18R-hydroxy-EPE	pp	209
+5S-hydroperoxy,18R-hydroxy-EPE	pp	207
+205	pp	5S-hydroperoxy,18R-hydroxy-EPE
+18R-hydroperoxy-EPE	pp	205
+204	pp	18R-hydroperoxy-EPE
+16S,17S-epoxydocosatriene	pp	203
+203	pp	Protectin D1
+202	pp	16S,17S-epoxydocosatriene
+201	pp	10S,17S-dihidroxydocosatriene
+17S-hydroperoxy DHA	pp	202
+17S-hydroperoxy DHA	pp	201
+200	pp	17S-hydroperoxy DHA
+175	pp	20-OH-LTE4
+177	pp	LTF4
+FabD	pp	125
+ACACB	pp	124
+FASN	pp	125
+ACACA	pp	124
+125	pp	Malonyl acp
+124	pp	Malonyl CoA
+Malonyl acp	pp	451
+Malonyl acp	pp	450
+Malonyl acp	pp	431
+Malonyl acp	pp	430
+Malonyl acp	pp	421
+Malonyl acp	pp	126
+Malonyl acp	pp	135
+Malonyl acp	pp	148
+Malonyl acp	pp	146
+Malonyl acp	pp	123
+Malonyl acp	pp	144
+Malonyl acp	pp	143
+Malonyl acp	pp	145
+Malonyl acp	pp	133
+Malonyl acp	pp	129
+Malonyl acp	pp	131
+Malonyl acp	pp	138
+Malonyl acp	pp	276
+Malonyl acp	pp	273
+Malonyl acp	pp	272
+Malonyl acp	pp	271
+Malonyl acp	pp	274
+Malonyl CoA	pp	125
+149	pp	Palmitoleoyl CoA (16:1)
+Palmitoleoyl CoA (16:1)	interaction	593
+Palmitoleoyl CoA (16:1)	interaction	570
+Palmitoleoyl CoA (16:1)	pp	308
+ACSL3	interaction	121
+ACSL3	pp	196
+ACSL3	pp	527
+ACSL4	interaction	121
+ACSL4	pp	196
+ACSL4	pp	527
+ACSL1	interaction	121
+ACSL1	pp	196
+ACSL1	pp	527
+121	interaction	Hexadecanoyl CoA (16:0)
+166	interaction	16(R)-HETE
+580	interaction	Arachidonoylamide
+CYCS	interaction	579
+CYCS	interaction	585
+CYCS	interaction	114
+CYCS	interaction	580
+CYCS	interaction	596
+CYCS	interaction	586
+CYCS	interaction	591
+CYCS	interaction	597
+CYCS	interaction	581
+CYCS	interaction	582
+CYCS	interaction	587
+CYCS	interaction	589
+CYCS	interaction	592
+CYCS	interaction	594
+CYCS	interaction	584
+CYCS	interaction	598
+CYCS	interaction	590
+CYCS	interaction	595
+CYCS	interaction	599
+CYCS	interaction	583
+CYCS	interaction	588
+CYCS	interaction	593
+596	interaction	15Z-Tetracosenoylamide
+585	interaction	5Z,8Z,11Z,14Z,17Z-Icosapentaenoylamide
+114	interaction	Behenicamide
+579	interaction	Linoleamide
+599	interaction	8Z,11Z-eicosadienoylamide
+590	interaction	Stearamide
+595	interaction	6Z,9Z-octadecenoylamide
+584	interaction	7Z,10Z,13Z,16Z-Docosatetraenoylamide
+598	interaction	11Z-eicosaenoylamide
+589	interaction	Myristamide
+588	interaction	5Z,8Z,11Z,14Z-eicosatetraenoylamide
+594	interaction	gamma-Linoleoylamide
+593	interaction	Palmitoleamide
+583	interaction	5Z,8Z,11Z-eicosatrienoylamide
+582	interaction	Palmitamide
+587	interaction	8Z,11Z,14Z-Eicosatrienoylamide
+592	interaction	9Z,12Z,15Z,18Z-Tetracosatetraenoylamide
+581	interaction	13Z-Docosenoylamide
+597	interaction	Oleamide
+586	interaction	4Z,7Z,10Z,13Z,16Z,19Z-Docosahexaenoylamide
+591	interaction	6Z,9Z,12Z,15Z,18Z-Tetracosapentaenoylamide
+578	interaction	Arachidonoyl CoA (20:0)
+BACAT	interaction	555
+BACAT	interaction	561
+BACAT	interaction	567
+BACAT	interaction	556
+BACAT	interaction	573
+BACAT	interaction	562
+BACAT	interaction	568
+BACAT	interaction	574
+BACAT	interaction	557
+BACAT	interaction	558
+BACAT	interaction	563
+BACAT	interaction	565
+BACAT	interaction	569
+BACAT	interaction	571
+BACAT	interaction	560
+BACAT	interaction	575
+BACAT	interaction	566
+BACAT	interaction	572
+BACAT	interaction	576
+BACAT	interaction	559
+BACAT	interaction	564
+BACAT	interaction	570
+PAM	interaction	551
+PAM	interaction	546
+PAM	interaction	541
+PAM	interaction	537
+PAM	interaction	538
+PAM	interaction	547
+PAM	interaction	548
+PAM	interaction	542
+PAM	interaction	543
+PAM	interaction	552
+PAM	interaction	539
+PAM	interaction	533
+PAM	interaction	549
+PAM	interaction	544
+PAM	interaction	535
+PAM	interaction	553
+PAM	interaction	534
+PAM	interaction	554
+PAM	interaction	540
+PAM	interaction	550
+PAM	interaction	545
+PAM	interaction	536
+N-Oleoylglycine	interaction	542
+N-4Z,7Z,10Z,13Z,16Z,19Z-Docosahexaenoylglycine	interaction	547
+N-6Z,9Z,12Z,15Z,18Z-Tetracosapentaenoylglycine	interaction	548
+N-Arachidonoylglycine	interaction	537
+N-15Z-Tetracosenoylglycine	interaction	538
+N-5Z,8Z,11Z,14Z,17Z-Icosapentaenoylglycine	interaction	546
+N-8Z,11Z-eicosadienoylglycine	interaction	540
+N-Docosanoylglycine	interaction	541
+N-Octadecanoylglycine	interaction	534
+N-6Z,9Z-octadecenoylglycine	interaction	554
+N-Linoleoylglycine	interaction	551
+N-7Z,10Z,13Z,16Z-Docosatetraenoylglycine	interaction	535
+N-11Z-eicosaenoylglycine	interaction	553
+N-Tetradecanoylglycine	interaction	533
+N-5Z,8Z,11Z,14Z-eicosatetranoylglycine	interaction	545
+N-gamma-Linoleoylglycine	interaction	544
+N-Palmitoleoylglycine	interaction	536
+N-5Z,8Z,11Z-eicosatrienoylglycine	interaction	550
+N-Hexadecanoylglycine	interaction	552
+N-8Z,11Z,14Z-Icosatrienoylglycine	interaction	539
+N-9Z,12Z,15Z,18Z-Tetracosatetraenoylglycine	interaction	549
+N-13Z-Docosenoylglycine	interaction	543
+536	interaction	Palmitoleamide
+545	interaction	5Z,8Z,11Z,14Z-eicosatetraenoylamide
+550	interaction	5Z,8Z,11Z-eicosatrienoylamide
+540	interaction	8Z,11Z-eicosadienoylamide
+554	interaction	6Z,9Z-octadecenoylamide
+534	interaction	Stearamide
+553	interaction	11Z-eicosaenoylamide
+535	interaction	7Z,10Z,13Z,16Z-Docosatetraenoylamide
+544	interaction	gamma-Linoleoylamide
+549	interaction	9Z,12Z,15Z,18Z-Tetracosatetraenoylamide
+533	interaction	Myristamide
+539	interaction	8Z,11Z,14Z-Eicosatrienoylamide
+552	interaction	Palmitamide
+543	interaction	13Z-Docosenoylamide
+542	interaction	Oleamide
+548	interaction	6Z,9Z,12Z,15Z,18Z-Tetracosapentaenoylamide
+547	interaction	4Z,7Z,10Z,13Z,16Z,19Z-Docosahexaenoylamide
+538	interaction	15Z-Tetracosenoylamide
+537	interaction	Arachidonoylamide
+541	interaction	Behenicamide
+546	interaction	5Z,8Z,11Z,14Z,17Z-Icosapentaenoylamide
+551	interaction	Linoleamide
+576	interaction	N-8Z,11Z-eicosadienoylglycine
+566	interaction	N-Octadecanoylglycine
+572	interaction	N-6Z,9Z-octadecenoylglycine
+560	interaction	N-7Z,10Z,13Z,16Z-Docosatetraenoylglycine
+575	interaction	N-11Z-eicosaenoylglycine
+565	interaction	N-Tetradecanoylglycine
+564	interaction	N-5Z,8Z,11Z,14Z-eicosatetranoylglycine
+571	interaction	N-gamma-Linoleoylglycine
+570	interaction	N-Palmitoleoylglycine
+559	interaction	N-5Z,8Z,11Z-eicosatrienoylglycine
+558	interaction	N-Hexadecanoylglycine
+563	interaction	N-8Z,11Z,14Z-Icosatrienoylglycine
+569	interaction	N-9Z,12Z,15Z,18Z-Tetracosatetraenoylglycine
+557	interaction	N-13Z-Docosenoylglycine
+574	interaction	N-Oleoylglycine
+562	interaction	N-4Z,7Z,10Z,13Z,16Z,19Z-Docosahexaenoylglycine
+568	interaction	N-6Z,9Z,12Z,15Z,18Z-Tetracosapentaenoylglycine
+556	interaction	N-Arachidonoylglycine
+573	interaction	N-15Z-Tetracosenoylglycine
+561	interaction	N-5Z,8Z,11Z,14Z,17Z-Icosapentaenoylglycine
+567	interaction	N-Docosanoylglycine
+555	interaction	N-Linoleoylglycine
+(7Z,10Z,13Z,16Z,19Z)-docosa-7,10,13,16,19-pentaenoicacid	interaction	330
+NUS1/DHDDS	interaction	329
+RCE1	interaction	327
+FNTA/FNTB	interaction	326
+327	interaction	Protein C-terminal S-farnesyl-L-cysteine
+S-farnersyl protein	interaction	327
+ACAT2	interaction	401
+CBR1	interaction	279
+FAM213B	interaction	269
+Prostacyclin	interaction	286
+HPGDS	interaction	277
+PTGIS	interaction	278
+TBXAS1	interaction	267
+TXA2	interaction	162
+FAAH	interaction	505
+FAAH	interaction	502
+FAAH	interaction	485
+FAAH	interaction	484
+FAAH	interaction	506
+FAAH	interaction	487
+FAAH	interaction	486
+FAAH	interaction	498
+FAAH	interaction	499
+FAAH	interaction	496
+FAAH	interaction	483
+FAAH	interaction	482
+FAAH	interaction	493
+FAAH	interaction	492
+FAAH	interaction	495
+FAAH	interaction	489
+FAAH	interaction	481
+FAAH	interaction	488
+FAAH	interaction	507
+FAAH	interaction	491
+FAAH	interaction	490
+FAAH	interaction	497
+BDH2	interaction	404
+CYP4F3	pp	415
+LTC4S	interaction	412
+GGT1	pp	413
+413	pp	LTD4
+LTD4	interaction	139
+LTE4	pp	175
+LTE4	pp	177
+139	interaction	LTE4
+LTA4H	pp	209
+LTA4H	pp	414
+415	pp	20-OH LB4
+LTB4	pp	415
+Fdps	pp	239
+Pmvk	pp	238
+Dhcr7	pp	242
+Sc5d	pp	232
+Idi1	pp	210
+Fdft1	pp	245
+Dhcr24	pp	243
+Hsd17b7/Nsdhl/Sc4mol	pp	244
+Sqle	pp	206
+Sqle	pp	197
+Ch25h	pp	234
+Hmgcr	pp	222
+Mvk	pp	194
+Hmgcs1	pp	213
+Mvd	pp	211
+Ebp	pp	217
+Lss	pp	230
+Ggps1	pp	199
+Cyp51/Tm7sf2	pp	236
+Cholestadienol	pp	241
+Cholestadienol	pp	220
+241	pp	7-dehydro-desmosterol
+220	pp	Lathosterol
+7-dehydro-desmosterol	pp	227
+232	pp	7-dehydro-cholesterol
+Lathosterol	pp	232
+227	pp	Desmosterol
+242	pp	Cholesterol
+7-dehydro-cholesterol	pp	242
+243	pp	Cholesterol
+Desmosterol	pp	243
+234	pp	25-hydroxy-cholesterol
+Cholesterol	pp	362
+Cholesterol	pp	361
+Cholesterol	pp	363
+Cholesterol	pp	364
+Cholesterol	pp	248
+Cholesterol	pp	246
+Cholesterol	pp	234
+Cholesterol	pp	208
+217	pp	Cholestadienol
+Zymosterol	pp	217
+244	pp	Zymosterol
+14-demethyl-lanosterol	pp	244
+236	pp	14-demethyl-lanosterol
+Lanosterol	pp	236
+Diepoxy-squalene	pp	191
+191	pp	24,25-epoxy cholesterol
+230	pp	Lanosterol
+197	pp	Diepoxy-squalene
+Squalene-2,3-epoxide	pp	230
+Squalene-2,3-epoxide	pp	197
+206	pp	Squalene-2,3-epoxide
+Squalene	pp	206
+329	interaction	Dephydro dolichol-PP
+330	interaction	Decaprenyl-PP
+326	interaction	S-farnersyl protein
+245	pp	Squalene
+Farnesyl-PP	interaction	329
+Farnesyl-PP	interaction	330
+Farnesyl-PP	interaction	326
+Farnesyl-PP	pp	245
+248	pp	27-hydroxy-cholesterol
+246	pp	Cholestenone
+208	pp	4beta-hydroxy-cholesterol
+Dimethylallyl-PP	pp	199
+Geranyl-PP	pp	239
+239	pp	Farnesyl-PP
+210	pp	Dimethylallyl-PP
+199	pp	Geranyl-PP
+Isopentenyl-PP	pp	239
+Isopentenyl-PP	pp	210
+Isopentenyl-PP	pp	199
+211	pp	Isopentenyl-PP
+Mevalonate-5-PP	pp	211
+238	pp	Mevalonate-5-PP
+Mevalonate-5-P	pp	238
+194	pp	Mevalonate-5-P
+Mevalonic acid	pp	194
+222	pp	Mevalonic acid
+(S)3Hydroxy-3-metylglutaryl CoA	interaction	403
+(S)3Hydroxy-3-metylglutaryl CoA	pp	222
+Fads1	pp	120
+Fads1	pp	179
+Fads1	pp	422
+Fads1	pp	192
+Ptges	pp	174
+279	interaction	PGF2alfa
+PGE2	interaction	279
+PGE2	interaction	186
+186	interaction	PGA2
+PGA2	interaction	187
+187	interaction	PGC2
+PGC2	interaction	188
+188	interaction	PGB2
+ALOX5	pp	216
+ALOX5	pp	215
+ALOX5	pp	214
+ALOX5	pp	212
+ALOX5	pp	205
+ALOX5	pp	201
+ALOX5	pp	410
+ALOX5	pp	176
+414	pp	LTB4
+LTA4	pp	412
+LTA4	pp	414
+410	pp	LTA4
+5-HPETE	pp	410
+5-HPETE	pp	411
+LTC4	pp	413
+412	pp	LTC4
+Ptgds	pp	160
+PGD2	interaction	278
+PGD2	pp	170
+PGD2	pp	168
+170	pp	PGJ2
+168	interaction	11-epi-PGF2alfa
+PGJ2	pp	165
+165	pp	15-deoxy-PGJ2
+Pla2g4a/Pla2g4b/Pla2g5/Pl	pp	178
+176	pp	5-HPETE
+Arachidonic acid	interaction	166
+Arachidonic acid	interaction	503
+Arachidonic acid	pp	176
+Arachidonic acid	pp	173
+Arachidonic acid	interaction	180
+Arachidonic acid	interaction	251
+Arachidonic acid	interaction	252
+Arachidonic acid	interaction	253
+Arachidonic acid	interaction	254
+Arachidonic acid	interaction	260
+Arachidonic acid	interaction	259
+Arachidonic acid	interaction	261
+Arachidonic acid	interaction	262
+Arachidonic acid	interaction	263
+Arachidonic acid	interaction	264
+Arachidonic acid	interaction	508
+Arachidonic acid	interaction	285
+180	interaction	15(S)-HPETE
+12(R)-HPETE	interaction	283
+8(S)-HPETE	interaction	282
+12(S)-HPETE	interaction	284
+9(S)-HPETE	interaction	280
+11(R)-HPETE	interaction	281
+15(S)-HPETE	interaction	181
+15(S)-HPETE	interaction	182
+15(S)-HPETE	interaction	184
+502	interaction	Arachidonic acid
+5Z,8Z,11Z,14Z-eicosatetraenoylamide	interaction	502
+PGG2	pp	171
+278	interaction	Prostacyclin
+277	interaction	PGD2
+269	interaction	PGF2alfa
+267	interaction	TXA2
+174	pp	PGE2
+160	pp	PGD2
+PGH2	interaction	278
+PGH2	interaction	277
+PGH2	interaction	269
+PGH2	interaction	267
+PGH2	pp	174
+PGH2	pp	160
+173	pp	PGG2
+171	pp	PGH2
+Ptgs1/2	pp	173
+Ptgs1/2	pp	171
+178	pp	Arachidonic acid
+GP	pp	178
+Fads2	pp	128
+Fads2	pp	420
+Fads2	pp	432
+Fads2	pp	452
+Fads2	pp	195
+Scd2	pp	149
+Scd2	pp	123
+128	pp	6Z,9Z-octadecenoyl CoA (18:2[6,9])
+Palmitoleic acid	interaction	460
+Palmitoleic acid	interaction	510
+481	interaction	Palmitoleic acid
+Palmitoleamide	interaction	481
+6,9-octadecenoic acid	interaction	468
+6,9-octadecenoic acid	interaction	509
+489	interaction	6,9-octadecenoic acid
+6Z,9Z-octadecenoylamide	interaction	489
+Oleic acid	interaction	469
+Oleic acid	interaction	523
+490	interaction	Oleic acid
+Oleamide	interaction	490
+506	interaction	Stearic acid
+493	interaction	Arachidic acid
+Arachidonoylamide	interaction	493
+Behenic acid	interaction	476
+Behenic acid	interaction	511
+497	interaction	Behenic acid
+Behenicamide	interaction	497
+11-eicosaenoic acid	interaction	470
+11-eicosaenoic acid	interaction	513
+491	interaction	11-eicosaenoic acid
+11Z-eicosaenoylamide	interaction	491
+cis-erucic acid	interaction	471
+cis-erucic acid	interaction	514
+492	interaction	cis-erucic acid
+13Z-Docosenoylamide	interaction	492
+cis-selacholeic acid	interaction	474
+cis-selacholeic acid	interaction	515
+495	interaction	cis-selacholeic acid
+15Z-Tetracosenoylamide	interaction	495
+179	pp	5Z,8Z,11Z,14Z-eicosatetranoyl CoA (20:4[5,8,11,14])
+5,8,11-eicosatrienoic acid	interaction	479
+5,8,11-eicosatrienoic acid	interaction	516
+507	interaction	5,8,11-eicosatrienoic acid
+5Z,8Z,11Z-eicosatrienoylamide	interaction	507
+120	pp	5Z,8Z,11Z-eicosatrienoyl CoA (20:3[5,8,11])
+8,11-eicosadienoic acid	interaction	475
+8,11-eicosadienoic acid	interaction	517
+496	interaction	8,11-eicosadienoic acid
+8Z,11Z-eicosadienoylamide	interaction	496
+Pcyt2	pp	95
+Pnpla3	pp	98
+Etnk1	pp	61
+CDP-Etn	pp	83
+2-acyl-PA	pp	55
+98	pp	2-acyl-PA
+Glycerol-3-P	pp	98
+95	pp	CDP-Etn
+Etn-P	pp	95
+61	pp	Etn-P
+Etn	pp	61
+Sgpl1	pp	12
+Sgpl1	pp	11
+Fvt1	pp	31
+Sptlc1/Sptlc2	pp	23
+ASAH1	pp	37
+37	pp	Sphingosine
+Sphk1/Sphk2	pp	19
+Sphk1/Sphk2	pp	21
+19	pp	Sphingosine-P
+11	pp	Ethanolamine-P
+11	pp	hexadecanal
+Sphingosine-P	pp	27
+Sphingosine-P	pp	11
+Sphingosine	pp	19
+27	pp	Sphingosine
+Ppap2a/Ppap2b/Ppap2c	pp	27
+12	pp	hexadecanal
+12	pp	Ethanolamine-P
+Sphinganine-P	pp	12
+21	pp	Sphinganine-P
+Sphinganine	pp	21
+31	pp	Sphinganine
+3-keto-sphinganine	pp	31
+23	pp	3-keto-sphinganine
+Serine	pp	23
+499	interaction	Palmitic acid
+Stearamide	interaction	506
+Arachidic acid	interaction	578
+Arachidic acid	interaction	472
+Lignoceric acid	interaction	512
+316	pp	5,8,11-eicosatrienoic acid
+315	pp	8,11-eicosadienoic acid
+309	pp	Arachidonic acid
+306	pp	6,9-octadecenoic acid
+305	pp	Oleic acid
+308	pp	Palmitoleic acid
+310	pp	Behenic acid
+311	pp	Lignoceric acid
+312	pp	11-eicosaenoic acid
+313	pp	cis-erucic acid
+314	pp	cis-selacholeic acid
+ACOT2	pp	316
+ACOT2	pp	315
+ACOT2	pp	300
+ACOT2	pp	301
+ACOT2	pp	302
+ACOT2	pp	303
+ACOT2	pp	309
+ACOT2	pp	306
+ACOT2	pp	305
+ACOT2	pp	304
+ACOT2	pp	308
+ACOT2	pp	310
+ACOT2	pp	307
+ACOT2	pp	311
+ACOT2	pp	312
+ACOT2	pp	313
+ACOT2	pp	314
+ACOT2	pp	423
+ACOT2	pp	424
+ACOT2	pp	425
+ACOT2	pp	433
+ACOT2	pp	434
+ACOT2	pp	435
+ACOT2	pp	454
+ACOT2	pp	458
+ACOT2	interaction	161
+ACOT2	pp	122
+Myristic acid	interaction	504
+Myristic acid	interaction	519
+Palmitic acid	interaction	121
+Palmitic acid	interaction	478
+Stearic acid	interaction	480
+Stearic acid	interaction	522
+Palmitamide	interaction	499
+505	interaction	Myristic acid
+Myristamide	interaction	505
+8,11,14-Eicosatrienoic acid	interaction	477
+8,11,14-Eicosatrienoic acid	interaction	525
+Linoleic acid	interaction	465
+Linoleic acid	interaction	527
+Linoleic acid	interaction	163
+Linoleic acid	interaction	164
+Linoleic acid	interaction	189
+Linoleic acid	interaction	136
+Linoleic acid	interaction	134
+Linoleic acid	interaction	137
+Linoleic acid	interaction	291
+gamma-Linolenic acid	interaction	466
+gamma-Linolenic acid	interaction	526
+(7Z,10Z,13Z,16Z)-Docosatetraenoic acid	interaction	461
+(7Z,10Z,13Z,16Z)-Docosatetraenoic acid	interaction	524
+(9Z,12Z,15Z,18Z)-Tetracosatetraenoic acid	interaction	463
+(9Z,12Z,15Z,18Z)-Tetracosatetraenoic acid	interaction	529
+(6Z,9Z,12Z,15Z,18Z)-Tetracosapentaenoic acid	interaction	464
+(6Z,9Z,12Z,15Z,18Z)-Tetracosapentaenoic acid	interaction	528
+(5Z,8Z,11Z,14Z,17Z)-Eicosapentaenoic acid	pp	204
+(5Z,8Z,11Z,14Z,17Z)-Eicosapentaenoic acid	interaction	467
+(5Z,8Z,11Z,14Z,17Z)-Eicosapentaenoic acid	interaction	532
+(4Z,7Z,10Z,13Z,16Z,19Z)-4,7,10,13,16,19-Docosahexaenoic acid	pp	142
+(4Z,7Z,10Z,13Z,16Z,19Z)-4,7,10,13,16,19-Docosahexaenoic acid	pp	200
+(4Z,7Z,10Z,13Z,16Z,19Z)-4,7,10,13,16,19-Docosahexaenoic acid	interaction	462
+(4Z,7Z,10Z,13Z,16Z,19Z)-4,7,10,13,16,19-Docosahexaenoic acid	interaction	531
+498	interaction	8,11,14-Eicosatrienoic acid
+8Z,11Z,14Z-Eicosatrienoylamide	interaction	498
+486	interaction	Linoleic acid
+Linoleamide	interaction	486
+487	interaction	gamma-Linolenic acid
+gamma-Linoleoylamide	interaction	487
+482	interaction	(7Z,10Z,13Z,16Z)-Docosatetraenoic acid
+7Z,10Z,13Z,16Z-Docosatetraenoylamide	interaction	482
+484	interaction	(9Z,12Z,15Z,18Z)-Tetracosatetraenoic acid
+9Z,12Z,15Z,18Z-Tetracosatetraenoylamide	interaction	484
+485	interaction	(6Z,9Z,12Z,15Z,18Z)-Tetracosapentaenoic acid
+6Z,9Z,12Z,15Z,18Z-Tetracosapentaenoylamide	interaction	485
+488	interaction	(5Z,8Z,11Z,14Z,17Z)-Eicosapentaenoic acid
+5Z,8Z,11Z,14Z,17Z-Icosapentaenoylamide	interaction	488
+483	interaction	(4Z,7Z,10Z,13Z,16Z,19Z)-4,7,10,13,16,19-Docosahexaenoic acid
+4Z,7Z,10Z,13Z,16Z,19Z-Docosahexaenoylamide	interaction	483
+303	pp	Palmitic acid
+302	pp	Myristic acid
+131	pp	Hexadecanoyl CoA (16:0)
+Fasn	pp	272
+Fasn	pp	273
+Fasn	pp	276
+Fasn	pp	138
+Fasn	pp	131
+Fasn	pp	271
+Fasn	interaction	274
+Lauric Acid	interaction	520
+138	pp	Tetradecanoyl CoA (14:0)
+300	pp	Lauric Acid
+Capric Acid	interaction	521
+276	pp	Dodecanoyl CoA (12:0)
+301	pp	Capric Acid
+273	pp	Decanoyl CoA (10:0)
+Octanoyl CoA (8:0)	pp	273
+Butanoyl CoA (4:0)	pp	271
+272	pp	Octanoyl CoA (8:0)
+Hexanoyl CoA (6:0)	pp	272
+123	pp	Oleoyl CoA (18:1)
+304	pp	Stearic acid
+129	pp	Octadecanoyl CoA (18:0)
+Elovl6	pp	129
+307	pp	Arachidic acid
+133	pp	Arachidonoyl CoA (20:0)
+145	pp	Docosanoyl CoA (22:0)
+Elovl3	pp	133
+Elovl3	pp	145
+143	pp	Tetracosanoyl CoA (24:0)
+Elovl1	pp	143
+Elovl1	interaction	144
+433	pp	(7Z,10Z,13Z,16Z)-Docosatetraenoic acid
+148	pp	13Z-Docosenoyl CoA (22:1)
+135	pp	15Z-Tetracosenoyl CoA (24:1)
+146	pp	11Z-eicosaenoyl CoA (20:1)
+126	pp	8Z,11Z-eicosadienoyl CoA (20:2[8,11])
+430	pp	7Z,10Z,13Z,16Z-Docosatetraenoyl CoA (22:4[7,10,13,16])
+Elovl2, Elovl5	pp	148
+Elovl2, Elovl5	pp	135
+Elovl2, Elovl5	pp	146
+Elovl2, Elovl5	pp	126
+Elovl2, Elovl5	pp	421
+Elovl2, Elovl5	pp	430
+Elovl2, Elovl5	pp	450
+Elovl2, Elovl5	pp	193
+271	pp	Hexanoyl CoA (6:0)
+274	pp	Butanoyl CoA (4:0)
+Acetyl CoA (2:0)	pp	124
+Acetyl CoA (2:0)	pp	213
+Acetyl CoA (2:0)	pp	274
+213	pp	(S)3Hydroxy-3-metylglutaryl CoA
+401	pp	Acetyl CoA (2:0)
+Acetoacetyl-CoA	pp	213
+Acetoacetyl-CoA	pp	401
+404	pp	3-Hydroxybutanoic acid
+Acetoacetate	pp	404
+403	pp	Acetyl CoA (2:0)
+403	pp	Acetoacetate
+HMGCL	pp	403
+422	pp	5Z,8Z,11Z,14Z-eicosatetranoyl CoA (20:4[5,8,11,14])
+423	pp	8,11,14-Eicosatrienoic acid
+421	pp	8Z,11Z,14Z-Icosatrienoyl CoA (20:3[8,11,14])
+425	pp	gamma-Linolenic acid
+420	pp	gamma-Linoleoyl CoA (18:3[6,9,12])
+424	pp	Linoleic acid
+435	pp	(6Z,9Z,12Z,15Z,18Z)-Tetracosapentaenoic acid
+432	pp	6Z,9Z,12Z,15Z,18Z-Tetracosapentaenoyl CoA (24:5[6,9,12,15,18])
+434	pp	(9Z,12Z,15Z,18Z)-Tetracosatetraenoic acid
+431	pp	9Z,12Z,15Z,18Z-Tetracosatetraenoyl CoA (24:4[9,12,15,18])
+Elovl2	pp	431
+Elovl2	pp	451
+6Z,9Z,12Z,15Z,18Z,21Z-Tetracosahexaenoyl CoA (24:6[6,9,12,15,18,21])	pp	453
+452	pp	6Z,9Z,12Z,15Z,18Z,21Z-Tetracosahexaenoyl CoA (24:6[6,9,12,15,18,21])
+9Z,12Z,15Z,18Z,21Z-Tetracosaheptaenoyl CoA (24:5[9,12,15,18,21])	pp	452
+451	pp	9Z,12Z,15Z,18Z,21Z-Tetracosaheptaenoyl CoA (24:5[9,12,15,18,21])
+161	interaction	(7Z,10Z,13Z,16Z,19Z)-docosa-7,10,13,16,19-pentaenoic acid
+450	pp	(7Z,10Z,13Z,16Z,19Z)-Docosapentaenoyl CoA (22:5[7,10,13,16,19])
+454	pp	(5Z,8Z,11Z,14Z,17Z)-Eicosapentaenoic acid
+458	pp	(4Z,7Z,10Z,13Z,16Z,19Z)-4,7,10,13,16,19-Docosahexaenoic acid
+453	pp	4Z,7Z,10Z,13Z,16Z,19Z-Docosahexaenoyl CoA (22:6[4,7,10,13,16,19])
+ACOX1	pp	453
+15H-11,12-EETA	interaction	185
+11H-14,15-EETA	interaction	183
+184	interaction	15H-11,12-EETA
+182	interaction	11H-14,15-EETA
+CYP2C8	interaction	184
+CYP2C8	interaction	182
+411	pp	5-HETE
+181	interaction	15(S)-HETE
+GPX6	pp	411
+GPX6	interaction	181
+183	interaction	11,14,15-THETA
+185	interaction	11,12,15-THETA
+CYP2J2	interaction	183
+CYP2J2	interaction	185
+14,15-EET	interaction	255
+11,12-EET	interaction	256
+8,9-EET	interaction	257
+5,6-EET	interaction	258
+251	interaction	14,15-EET
+252	interaction	11,12-EET
+253	interaction	8,9-EET
+254	interaction	5,6-EET
+CYP2	interaction	251
+CYP2	interaction	252
+CYP2	interaction	253
+CYP2	interaction	254
+255	interaction	14,15-DHET
+256	interaction	11,12-DHET
+257	interaction	8,9-DHET
+258	interaction	5,6-DHET
+EPHX2	interaction	255
+EPHX2	interaction	256
+EPHX2	interaction	257
+EPHX2	interaction	258
+260	interaction	12(R)-HPETE
+ALOX12B	interaction	260
+259	interaction	8(S)-HPETE
+ALOX15B	interaction	259
+261	interaction	12(S)-HPETE
+ALOX12	interaction	261
+263	interaction	11(R)-HPETE
+262	interaction	9(S)-HPETE
+UG3.1	interaction	262
+264	interaction	20-HETE
+CYP2U	interaction	264
+CYP2U	interaction	285
+504	interaction	Myristamide
+460	interaction	Palmitoleamide
+478	interaction	Palmitamide
+480	interaction	Stearamide
+477	interaction	8Z,11Z,14Z-Eicosatrienoylamide
+464	interaction	6Z,9Z,12Z,15Z,18Z-Tetracosapentaenoylamide
+467	interaction	5Z,8Z,11Z,14Z,17Z-Icosapentaenoylamide
+462	interaction	4Z,7Z,10Z,13Z,16Z,19Z-Docosahexaenoylamide
+466	interaction	gamma-Linoleoylamide
+475	interaction	8Z,11Z-eicosadienoylamide
+503	interaction	5Z,8Z,11Z,14Z-eicosatetraenoylamide
+465	interaction	Linoleamide
+474	interaction	15Z-Tetracosenoylamide
+472	interaction	Arachidonoylamide
+476	interaction	Behenicamide
+471	interaction	13Z-Docosenoylamide
+469	interaction	Oleamide
+470	interaction	11Z-eicosaenoylamide
+468	interaction	6Z,9Z-octadecenoylamide
+479	interaction	5Z,8Z,11Z-eicosatrienoylamide
+463	interaction	9Z,12Z,15Z,18Z-Tetracosatetraenoylamide
+461	interaction	7Z,10Z,13Z,16Z-Docosatetraenoylamide
+FAAH2	interaction	504
+FAAH2	interaction	460
+FAAH2	interaction	478
+FAAH2	interaction	480
+FAAH2	interaction	477
+FAAH2	interaction	464
+FAAH2	interaction	467
+FAAH2	interaction	462
+FAAH2	interaction	466
+FAAH2	interaction	475
+FAAH2	interaction	503
+FAAH2	interaction	465
+FAAH2	interaction	474
+FAAH2	interaction	472
+FAAH2	interaction	476
+FAAH2	interaction	471
+FAAH2	interaction	469
+FAAH2	interaction	470
+FAAH2	interaction	468
+FAAH2	interaction	479
+FAAH2	interaction	463
+FAAH2	interaction	461
+(7Z,10Z,13Z,16Z,19Z)-docosa-7,10,13,16,19-pentaenoic acid	interaction	530
+5Z,8Z,11Z,14Z-eicosatetranoyl CoA (20:4[5,8,11,14])	interaction	588
+5Z,8Z,11Z,14Z-eicosatetranoyl CoA (20:4[5,8,11,14])	interaction	564
+5Z,8Z,11Z,14Z-eicosatetranoyl CoA (20:4[5,8,11,14])	pp	309
+5Z,8Z,11Z,14Z-eicosatetranoyl CoA (20:4[5,8,11,14])	pp	430
+Oleoyl CoA (18:1)	interaction	597
+Oleoyl CoA (18:1)	interaction	574
+Oleoyl CoA (18:1)	pp	146
+Oleoyl CoA (18:1)	pp	128
+Oleoyl CoA (18:1)	pp	305
+Docosanoyl CoA (22:0)	interaction	114
+Docosanoyl CoA (22:0)	interaction	567
+Docosanoyl CoA (22:0)	pp	143
+Docosanoyl CoA (22:0)	pp	310
+Tetracosanoyl CoA (24:0)	pp	311
+Tetracosanoyl CoA (24:0)	interaction	144
+11Z-eicosaenoyl CoA (20:1)	interaction	598
+11Z-eicosaenoyl CoA (20:1)	interaction	575
+11Z-eicosaenoyl CoA (20:1)	pp	148
+11Z-eicosaenoyl CoA (20:1)	pp	312
+13Z-Docosenoyl CoA (22:1)	interaction	581
+13Z-Docosenoyl CoA (22:1)	interaction	557
+13Z-Docosenoyl CoA (22:1)	pp	135
+13Z-Docosenoyl CoA (22:1)	pp	313
+15Z-Tetracosenoyl CoA (24:1)	interaction	596
+15Z-Tetracosenoyl CoA (24:1)	interaction	573
+15Z-Tetracosenoyl CoA (24:1)	pp	314
+5Z,8Z,11Z-eicosatrienoyl CoA (20:3[5,8,11])	interaction	583
+5Z,8Z,11Z-eicosatrienoyl CoA (20:3[5,8,11])	interaction	559
+5Z,8Z,11Z-eicosatrienoyl CoA (20:3[5,8,11])	pp	316
+5Z,8Z,11Z-eicosatrienoyl CoA (20:3[5,8,11])	pp	179
+8Z,11Z-eicosadienoyl CoA (20:2[8,11])	interaction	599
+8Z,11Z-eicosadienoyl CoA (20:2[8,11])	interaction	576
+8Z,11Z-eicosadienoyl CoA (20:2[8,11])	pp	315
+8Z,11Z-eicosadienoyl CoA (20:2[8,11])	pp	120
+Hexadecanoyl CoA (16:0)	pp	149
+Hexadecanoyl CoA (16:0)	interaction	582
+Hexadecanoyl CoA (16:0)	interaction	558
+Hexadecanoyl CoA (16:0)	pp	129
+Hexadecanoyl CoA (16:0)	pp	303
+Tetradecanoyl CoA (14:0)	interaction	589
+Tetradecanoyl CoA (14:0)	interaction	565
+Tetradecanoyl CoA (14:0)	pp	131
+Tetradecanoyl CoA (14:0)	pp	302
+Dodecanoyl CoA (12:0)	pp	138
+Dodecanoyl CoA (12:0)	pp	300
+Decanoyl CoA (10:0)	pp	276
+Decanoyl CoA (10:0)	pp	301
+Octadecanoyl CoA (18:0)	interaction	590
+Octadecanoyl CoA (18:0)	interaction	566
+Octadecanoyl CoA (18:0)	pp	133
+Octadecanoyl CoA (18:0)	pp	123
+Octadecanoyl CoA (18:0)	pp	304
+6Z,9Z-octadecenoyl CoA (18:2[6,9])	interaction	595
+6Z,9Z-octadecenoyl CoA (18:2[6,9])	interaction	572
+6Z,9Z-octadecenoyl CoA (18:2[6,9])	pp	126
+6Z,9Z-octadecenoyl CoA (18:2[6,9])	pp	306
+508	interaction	5Z,8Z,11Z,14Z-eicosatetranoyl CoA (20:4[5,8,11,14])
+509	interaction	6Z,9Z-octadecenoyl CoA (18:2[6,9])
+510	interaction	Palmitoleoyl CoA (16:1)
+511	interaction	Docosanoyl CoA (22:0)
+512	interaction	Tetracosanoyl CoA (24:0)
+513	interaction	11Z-eicosaenoyl CoA (20:1)
+514	interaction	13Z-Docosenoyl CoA (22:1)
+515	interaction	15Z-Tetracosenoyl CoA (24:1)
+516	interaction	5Z,8Z,11Z-eicosatrienoyl CoA (20:3[5,8,11])
+517	interaction	8Z,11Z-eicosadienoyl CoA (20:2[8,11])
+519	interaction	Tetradecanoyl CoA (14:0)
+520	interaction	Dodecanoyl CoA (12:0)
+521	interaction	Decanoyl CoA (10:0)
+522	interaction	Octadecanoyl CoA (18:0)
+ACS	interaction	578
+ACS	interaction	508
+ACS	interaction	509
+ACS	interaction	510
+ACS	interaction	511
+ACS	interaction	512
+ACS	interaction	513
+ACS	interaction	514
+ACS	interaction	515
+ACS	interaction	516
+ACS	interaction	517
+ACS	interaction	519
+ACS	interaction	520
+ACS	interaction	521
+ACS	interaction	522
+ACS	interaction	523
+ACS	interaction	524
+ACS	interaction	525
+ACS	interaction	526
+ACS	interaction	528
+ACS	interaction	529
+ACS	interaction	530
+ACS	interaction	532
+ACS	interaction	531
+ACS	pp	127
+Arachidonoyl CoA (20:0)	interaction	580
+Arachidonoyl CoA (20:0)	interaction	556
+Arachidonoyl CoA (20:0)	pp	145
+Arachidonoyl CoA (20:0)	pp	307
+523	interaction	Oleoyl CoA (18:1)
+7Z,10Z,13Z,16Z-Docosatetraenoyl CoA (22:4[7,10,13,16])	interaction	584
+7Z,10Z,13Z,16Z-Docosatetraenoyl CoA (22:4[7,10,13,16])	interaction	560
+7Z,10Z,13Z,16Z-Docosatetraenoyl CoA (22:4[7,10,13,16])	pp	431
+7Z,10Z,13Z,16Z-Docosatetraenoyl CoA (22:4[7,10,13,16])	pp	433
+524	interaction	7Z,10Z,13Z,16Z-Docosatetraenoyl CoA (22:4[7,10,13,16])
+8Z,11Z,14Z-Icosatrienoyl CoA (20:3[8,11,14])	interaction	587
+8Z,11Z,14Z-Icosatrienoyl CoA (20:3[8,11,14])	interaction	563
+8Z,11Z,14Z-Icosatrienoyl CoA (20:3[8,11,14])	pp	422
+8Z,11Z,14Z-Icosatrienoyl CoA (20:3[8,11,14])	pp	423
+525	interaction	8Z,11Z,14Z-Icosatrienoyl CoA (20:3[8,11,14])
+gamma-Linoleoyl CoA (18:3[6,9,12])	interaction	594
+gamma-Linoleoyl CoA (18:3[6,9,12])	interaction	571
+gamma-Linoleoyl CoA (18:3[6,9,12])	pp	421
+gamma-Linoleoyl CoA (18:3[6,9,12])	pp	425
+526	interaction	gamma-Linoleoyl CoA (18:3[6,9,12])
+Linoleoyl CoA (18:2[9,12])	interaction	579
+Linoleoyl CoA (18:2[9,12])	interaction	555
+Linoleoyl CoA (18:2[9,12])	pp	420
+Linoleoyl CoA (18:2[9,12])	pp	424
+527	interaction	Linoleoyl CoA (18:2[9,12])
+6Z,9Z,12Z,15Z,18Z-Tetracosapentaenoyl CoA (24:5[6,9,12,15,18])	interaction	591
+6Z,9Z,12Z,15Z,18Z-Tetracosapentaenoyl CoA (24:5[6,9,12,15,18])	interaction	568
+6Z,9Z,12Z,15Z,18Z-Tetracosapentaenoyl CoA (24:5[6,9,12,15,18])	pp	435
+528	interaction	6Z,9Z,12Z,15Z,18Z-Tetracosapentaenoyl CoA (24:5[6,9,12,15,18])
+9Z,12Z,15Z,18Z-Tetracosatetraenoyl CoA (24:4[9,12,15,18])	interaction	592
+9Z,12Z,15Z,18Z-Tetracosatetraenoyl CoA (24:4[9,12,15,18])	interaction	569
+9Z,12Z,15Z,18Z-Tetracosatetraenoyl CoA (24:4[9,12,15,18])	pp	432
+9Z,12Z,15Z,18Z-Tetracosatetraenoyl CoA (24:4[9,12,15,18])	pp	434
+529	interaction	9Z,12Z,15Z,18Z-Tetracosatetraenoyl CoA (24:4[9,12,15,18])
+4Z,7Z,10Z,13Z,16Z,19Z-Docosahexaenoyl CoA (22:6[4,7,10,13,16,19])	interaction	586
+4Z,7Z,10Z,13Z,16Z,19Z-Docosahexaenoyl CoA (22:6[4,7,10,13,16,19])	interaction	562
+4Z,7Z,10Z,13Z,16Z,19Z-Docosahexaenoyl CoA (22:6[4,7,10,13,16,19])	pp	458
+531	interaction	4Z,7Z,10Z,13Z,16Z,19Z-Docosahexaenoyl CoA (22:6[4,7,10,13,16,19])
+(7Z,10Z,13Z,16Z,19Z)-Docosapentaenoyl CoA (22:5[7,10,13,16,19])	pp	451
+(7Z,10Z,13Z,16Z,19Z)-Docosapentaenoyl CoA (22:5[7,10,13,16,19])	interaction	161
+530	interaction	(7Z,10Z,13Z,16Z,19Z)-Docosapentaenoyl CoA (22:5[7,10,13,16,19])
+5Z,8Z,11Z,14Z,17Z-Icosapentaenoyl CoA (20:5[5,8,11,14,17])	interaction	585
+5Z,8Z,11Z,14Z,17Z-Icosapentaenoyl CoA (20:5[5,8,11,14,17])	interaction	561
+5Z,8Z,11Z,14Z,17Z-Icosapentaenoyl CoA (20:5[5,8,11,14,17])	pp	450
+5Z,8Z,11Z,14Z,17Z-Icosapentaenoyl CoA (20:5[5,8,11,14,17])	pp	454
+532	interaction	5Z,8Z,11Z,14Z,17Z-Icosapentaenoyl CoA (20:5[5,8,11,14,17])
+AKR1C3	interaction	168
+UG3.1	interaction	263
+280	interaction	9(S)-HETE
+281	interaction	11(R)-HETE
+282	interaction	8(S)-HETE
+283	interaction	12(R)-HETE
+284	interaction	12(S)-HETE
+285	interaction	19(S)-HETE
+286	interaction	6-keto PGF1a
+162	interaction	TXB2
+163	interaction	12(13)-EpOME
+164	interaction	9(10)-EpOME
+12(13)-EpOME	interaction	140
+9(10)-EpOME	interaction	141
+CYP1A2	interaction	163
+CYP1A2	interaction	164
+CYP2C	interaction	163
+CYP2C	interaction	164
+CYP2J	interaction	163
+CYP2J	interaction	164
+140	interaction	12,13-DHOME
+141	interaction	9,10-DHOME
+UG5	interaction	140
+UG5	interaction	141
+189	interaction	13(S)-HPODE
+13(S)-HPODE	interaction	287
+ALOX15	pp	200
+ALOX15	interaction	189
+136	interaction	9(S)-HPODE
+134	interaction	11(S)-HPODE
+137	interaction	10(S)-HPODE
+9(S)-HPODE	interaction	289
+287	interaction	13(S)-HODE
+288	interaction	13-OxoODE
+13(S)-HODE	interaction	288
+290	interaction	9-OxoODE
+289	interaction	9(S)-HODE
+9(S)-HODE	interaction	290
+291	interaction	8(R)-HPODE
+144	interaction	Hexacosanoyl CoA (26:0)
+Hexacosanoyl CoA (26:0)	pp	122
+127	pp	Hexacosanoyl CoA (26:0)
+Cerotic acid	pp	127
+122	pp	Cerotic acid
+8Z,11Z,14Z,17Z-eicosatetranoyl CoA (20:4[8,11,14,17])	pp	192
+192	pp	5Z,8Z,11Z,14Z,17Z-Icosapentaenoyl CoA (20:5[5,8,11,14,17])
+6Z,9Z,12Z,15Z-octadecenoyl CoA (18:4[6,9,12,15])	pp	193
+193	pp	8Z,11Z,14Z,17Z-eicosatetranoyl CoA (20:4[8,11,14,17])
+195	pp	6Z,9Z,12Z,15Z-octadecenoyl CoA (18:4[6,9,12,15])
+alpha-Linolenoyl CoA (18:3[9,12,15])	pp	195
+alpha-Linolenic acid	pp	196
+196	pp	alpha-Linolenoyl CoA (18:3[9,12,15])
